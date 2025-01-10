@@ -10,17 +10,17 @@
     <!-- 회원가입 컨테이너 -->
     <div class="signup-container">
         <h1>Welcome to SoulSync</h1>
-        <form>
+        <form action="/signup" method="post"> <!-- POST 방식 -->
             <label for="username">아이디</label>
             <input type="text" id="username" name="username" placeholder="아이디를 입력하세요" required>
 
             <label for="password">비밀번호</label>
             <input type="password" id="password" name="password" placeholder="비밀번호를 입력하세요" required>
 
-            <label for="confirm-password">비밀번호 확인</label>
-            <input type="password" id="confirm-password" name="confirm-password" placeholder="비밀번호를 다시 입력하세요" required>
+            <label for="confirm_password">비밀번호 확인</label> <!-- 이름 수정 -->
+            <input type="password" id="confirm_password" name="confirm_password" placeholder="비밀번호를 다시 입력하세요" required>
 
-            <button type="submit">로그인</button>
+            <button type="submit">회원가입</button>
         </form>
     </div>
 </body>
