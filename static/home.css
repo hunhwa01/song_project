@@ -87,7 +87,14 @@ body {
     margin-left: 300px;
     width: 80%;
     max-width: 1200px;
-    margin-top: 250px;
+    margin-top: 135px;
+}
+
+.content h2 {
+    font-size: 30px;
+    color: #ffffff;
+    top: 0px;
+    margin-bottom: 50px;
 }
 
 /* 박스 컨테이너 */
