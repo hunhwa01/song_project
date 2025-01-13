@@ -1,5 +1,9 @@
-fastapi[standard]
-uvicorn
-torch
-requests
-pandas
+pip install uvicorn
+pip install fastapi
+pip install transfomers
+pip install itsdangerous
+pip install python-multipart
+pip install protobuf
+pip install sentencepiece
+pip install pandas
+pip install torch
